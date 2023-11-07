@@ -1,0 +1,91 @@
+.home-content {
+  display: flex;
+  color: white;
+  font-family: inherit;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.infos{
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 150px;
+}
+
+.infos > h1{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+
+.infos > span{
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgb(46, 19, 146);
+}
+.infos > p {
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.actions{
+  margin-top: 20px;
+  font-size: 15px;
+  padding: 2px;
+}
+
+.actions > a{
+  display: inline-block;
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+}
+
+.img > img {
+  width: 250px;
+  margin-top: 60px;
+  border-radius: 45%;
+}
+
+.cv{
+  background-color: rgb(8, 8, 122);
+  transition: 0.3s;
+  border: 2px solid rgb(8, 8, 122);
+}
+.mycontact{
+  margin-left: 25px;
+  border: 2px solid rgb(8, 8, 122);
+}
+
+.cv:hover{
+  background-color: rgb(5, 5, 80);
+  border-color: rgb(5, 5, 80);
+  transform: scale(0.95);
+}
+
+.mycontact:hover{
+  background-color: rgb(8, 8, 122);
+  border-color: rgb(8, 8, 122);
+  transform: scale(0.95);
+}
+
+.about-me{
+  display: block;
+  color: white;
+  font-family: inherit;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.about-me > h2{
+  font-size: 30px;
+}
+
+.about-me > p{
+  color: gray;
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 18px;
+}
